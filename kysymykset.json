@@ -1,0 +1,631 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "JU",
+        "JK",
+        "JN",
+        "KT"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "1."
+      },
+      "number": 1,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit tehd\u00c3\u00a4 junakulkutien kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "JN,VT",
+        "JK,E",
+        "UK,VT",
+        "UK,E"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "2."
+      },
+      "number": 2,
+      "prompt": "Puutavaravaunuja kuljettava dieselvetoinen juna on saapunut Yl\u00c3\u00b6j\u00c3\u00a4rven puunlastauspaikalle, ja pit\u00c3\u00a4\u00c3\u00a4 reititt\u00c3\u00a4\u00c3\u00a4 p\u00c3\u00a4\u00c3\u00a4raiteen tulo- opastimelta s\u00c3\u00a4hk\u00c3\u00b6tt\u00c3\u00b6m\u00c3\u00a4lle sivuraiteelle. Mill\u00c3\u00a4 komennoilla voit tehd\u00c3\u00a4 yksik\u00c3\u00b6lle tilanteessa vaihtokulkutien?"
+    },
+    {
+      "answers": [
+        "Junakulkutien varmistaminen s\u00c3\u00a4hk\u00c3\u00b6ist\u00c3\u00a4m\u00c3\u00a4tt\u00c3\u00b6m\u00c3\u00a4lle raiteelle",
+        "Kulkutien peruuttaminen",
+        "Opastimen asettaminen n\u00c3\u00a4ytt\u00c3\u00a4m\u00c3\u00a4\u00c3\u00a4n SEIS- opastetta",
+        "Yksitt\u00c3\u00a4isen vaihteen lukituksen vapauttaminen",
+        "Vaihteen ajoneston poistaminen"
+      ],
+      "correct": {
+        "index": 4,
+        "text": "3."
+      },
+      "number": 3,
+      "prompt": "Mitk\u00c3\u00a4 seuraavista ovat kriittisi\u00c3\u00a4 komentoja?"
+    },
+    {
+      "answers": [
+        "JK,L",
+        "JK,S",
+        "JK,E"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "4."
+      },
+      "number": 4,
+      "prompt": "Liikennepaikan p\u00c3\u00a4\u00c3\u00a4raiteella on k\u00c3\u00a4ynniss\u00c3\u00a4 rataty\u00c3\u00b6. Mill\u00c3\u00a4 kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4n komennolla voit reititt\u00c3\u00a4\u00c3\u00a4 junakulkutien liikennepaikan sivuraiteen kautta ohi (oletetaan, ett\u00c3\u00a4 rataty\u00c3\u00b6 on riitt\u00c3\u00a4v\u00c3\u00a4sti suojattu)?"
+    },
+    {
+      "answers": [
+        "Junakulkutie kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4n komennolla JK,E -  kuljettajalle ilmoitus varatusta raiteesta",
+        "Junakulkutie kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4n komennolla VT -  kuljettajaa ei tarvitse infota varatusta raiteesta",
+        "Asetinlaite ei tue varatulle raiteelle kulkutien tekemist\u00c3\u00a4, yksikk\u00c3\u00b6 muutetaan vaihtoty\u00c3\u00b6ksi -  kuljettajaa infotaan junana kulun loppumisesta"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "5."
+      },
+      "number": 5,
+      "prompt": "Matkustajajuna on saapumassa Tampereen aseman raiteelle 003, jossa on jo toinen juna. Mitk\u00c3\u00a4 v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4t ovat oikein?"
+    },
+    {
+      "answers": [
+        "Voin tehd\u00c3\u00a4, komento UKVR -  kriittinen komento",
+        "En voi tehd\u00c3\u00a4",
+        "Voin tehd\u00c3\u00a4, komento UKLU -  kriittinen komento"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "6."
+      },
+      "number": 6,
+      "prompt": "Voinko tehd\u00c3\u00a4 vaihtokulkutien, jos kulkutiereitille on asetettu ajonesto?"
+    },
+    {
+      "answers": [
+        "Komento KPER peruuttaa aina kulkutien, kunhan sit\u00c3\u00a4 ei ole k\u00c3\u00a4ytetty",
+        "Komento KPER peruuttaa kulkutien, kunhan sen aloittava opastin ei ole ehtinyt muuttua ajon sallivaksi",
+        "Komento HPM purkaa kulkutien kaikissa tilanteissa v\u00c3\u00a4litt\u00c3\u00b6m\u00c3\u00a4sti",
+        "Junakulkutien h\u00c3\u00a4t\u00c3\u00a4varainen purkaminen on kriittinen komento ja aloittaa purun vasta 60 sekunnin viiveen j\u00c3\u00a4lkeen"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "7."
+      },
+      "number": 7,
+      "prompt": "K\u00c3\u00a4ytt\u00c3\u00a4m\u00c3\u00a4t\u00c3\u00b6n junakulkutie pit\u00c3\u00a4\u00c3\u00a4 purkaa. Mitk\u00c3\u00a4 v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4t ovat oikein?"
+    },
+    {
+      "answers": [
+        "AJA",
+        "AJA35",
+        "SEIS"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 8,
+      "prompt": "Mitk\u00c3\u00a4 seuraavista opastinkomennoista on mahdollista toteuttaa kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "SUK",
+        "SSK",
+        "SKK"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 9,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 suojastuksen liikennesuunnan kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "VK\u00c3\u201e",
+        "V",
+        "AK\u00c3\u201e"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 10,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 vaihteen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "VLUK",
+        "VALK",
+        "VAIL"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 11,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit lukita vaihteen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "VAES",
+        "VEST",
+        "VAIE"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 12,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit asettaa vaihteelle ajoneston kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "VLKV",
+        "VLEI",
+        "VVAP"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 13,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit vapauttaa vaihteen lukituksen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "ROE",
+        "RAEST",
+        "REST"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 14,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit asettaa raideosuudelle ajoneston kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "RAPO",
+        "REPO",
+        "ROAEP"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 15,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit poistaa raideosuudelle asetetun ajoneston kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "PL",
+        "PAIKL",
+        "PALU"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 16,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit antaa paikallisluvan kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "PALP",
+        "PLP",
+        "PAIKP"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 17,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit peruuttaa my\u00c3\u00b6nnetyn paikallisluvan kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "ASVAP",
+        "ASV",
+        "ASAV"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 18,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit vapauttaa avainsalpalaitteen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "ASLUK",
+        "ASAL",
+        "ASL"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 19,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit lukita avainsalpalaitteen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "TRVAR",
+        "TSRH\u00c3\u201eL",
+        "KVAR",
+        "KH\u00c3\u201eL"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 20,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit asettaa tasoristeyksen varoituslaitoksen aloittamaan varoituksen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "KEI",
+        "TRP",
+        "KPOI",
+        "TSREI"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 21,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit lopettaa tasoristeyksen varoituslaitoksen laitoskohtaisen varoituksen kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "RTXT",
+        "RTE",
+        "RLVTX",
+        "TXT"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 22,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit kirjoittaa teksti\u00c3\u00a4 raiteelle tai linjaraiteelle kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "RPV",
+        "VALON",
+        "VAON",
+        "RPVAL"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 23,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit asettaa liikennepaikan ratapihavalot p\u00c3\u00a4\u00c3\u00a4lle kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "RPVOFF",
+        "VALOFF",
+        "VAEI",
+        "RPVEI"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 24,
+      "prompt": "Mill\u00c3\u00a4 komennolla voit asettaa liikennepaikan ratapihavalot pois p\u00c3\u00a4\u00c3\u00a4lt\u00c3\u00a4 kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "Ei est\u00c3\u00a4",
+        "Kyll\u00c3\u00a4 est\u00c3\u00a4\u00c3\u00a4"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 25,
+      "prompt": "Olet asettanut kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4n raiteelle huomautustekstin. Est\u00c3\u00a4\u00c3\u00a4k\u00c3\u00b6 se kulkutien tekemist\u00c3\u00a4 kyseiselle raiteelle?"
+    },
+    {
+      "answers": [
+        "Liikenneohjaaja ei voi k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 vaihdetta",
+        "Kulkutien voi tehd\u00c3\u00a4 kyseisen vaihteen kautta, jos se on kulkutien kannalta oikeaan asentoon lukittuneena",
+        "Automatiikka voi k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 vaihteen tarvittaessa"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 26,
+      "prompt": "Olet lukinnut kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 yksitt\u00c3\u00a4isen vaihteen. Mitk\u00c3\u00a4 v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4t ovat oikein?"
+    },
+    {
+      "answers": [
+        "Liikenneohjaaja ei voi k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 vaihdetta",
+        "Automatiikka voi k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 vaihteen tarvittaessa",
+        "Vaihde voi k\u00c3\u00a4\u00c3\u00a4nty\u00c3\u00a4 mihin asentoon vaan liikenteenohjauksen tiet\u00c3\u00a4m\u00c3\u00a4tt\u00c3\u00a4 maastosta ohjattuna",
+        "Kulkuteit\u00c3\u00a4 ei voi muodostaa vaihteen kautta ennen kuin paikallisluvat on palautettu"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "hmm"
+      },
+      "number": 27,
+      "prompt": "Yksitt\u00c3\u00a4inen vaihde on kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 paikallisluvan piiriss\u00c3\u00a4. Mitk\u00c3\u00a4 v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4t ovat oikein?"
+    },
+    {
+      "answers": [
+        "Liikenneohjaaja ei voi k\u00c3\u00a4\u00c3\u00a4nt\u00c3\u00a4\u00c3\u00a4 vaihdetta",
+        "Kulkuteit\u00c3\u00a4 ei voi muodostaa vaihteen kautta"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 28,
+      "prompt": "Yksitt\u00c3\u00a4iselle vaihteelle on kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 asetettu ajonesto. Mitk\u00c3\u00a4 v\u00c3\u00a4itt\u00c3\u00a4m\u00c3\u00a4t ovat oikein?"
+    },
+    {
+      "answers": [
+        "Keltainen",
+        "Vihre\u00c3\u00a4",
+        "Punainen",
+        "Sininen",
+        "Valkoinen"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 29,
+      "prompt": "Mink\u00c3\u00a4 v\u00c3\u00a4rinen on kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 varautunut raideosuus?"
+    },
+    {
+      "answers": [
+        "Sininen",
+        "Keltainen",
+        "Valkoinen",
+        "Vihre\u00c3\u00a4",
+        "Punainen"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 30,
+      "prompt": "Mink\u00c3\u00a4 v\u00c3\u00a4rinen on kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 s\u00c3\u00a4hk\u00c3\u00b6istetty raideosuus, jolle ei ole annettu komentoja ja joka ei ole varautunut?"
+    },
+    {
+      "answers": [
+        "Vihre\u00c3\u00a4",
+        "Valkoinen",
+        "Punainen",
+        "Sininen",
+        "Keltainen"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "hmm"
+      },
+      "number": 31,
+      "prompt": "Mink\u00c3\u00a4 v\u00c3\u00a4rinen on kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 s\u00c3\u00a4hk\u00c3\u00b6ist\u00c3\u00a4m\u00c3\u00a4t\u00c3\u00b6n raideosuus, jolle ei ole annettu komentoja ja joka ei ole varautunut?"
+    },
+    {
+      "answers": [
+        "Valkoinen",
+        "Vihre\u00c3\u00a4",
+        "Keltainen",
+        "Sininen",
+        "Punainen"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 32,
+      "prompt": "Mink\u00c3\u00a4 v\u00c3\u00a4rinen on kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4 varmistettu vaihtokulkutie, joka ei ole varautunut?"
+    },
+    {
+      "answers": [
+        "Sivuraidetta",
+        "Toisen luokan liikenteenohjausaluetta",
+        "Laitevikaa tai yhteyskatkoa"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 33,
+      "prompt": "Mit\u00c3\u00a4 kuvaa harmaan v\u00c3\u00a4rinen raideosuus kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "Vaihtuvaa opastetta",
+        "Lukittuvaa opastetta",
+        "Lamppuvikaa tai yhteyskatkoa"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 34,
+      "prompt": "Mit\u00c3\u00a4 tarkoittaa vilkkuva punainen opastinsymboli kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "Kulkutien suojastusta",
+        "Kulkutien lukitusta",
+        "Kulkutien varmistusta"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 35,
+      "prompt": "Mit\u00c3\u00a4 tarkoittavat pienet neli\u00c3\u00b6t varmistetun kulkutien vieress\u00c3\u00a4 kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "Kun yksikk\u00c3\u00b6 on k\u00c3\u00a4ytt\u00c3\u00a4nyt sen, raideosuus kerrallaan",
+        "Kun kulkutie peruutetaan siten, ett\u00c3\u00a4 sen aloittava opastin ei ole ehtinyt muuttua ajon sallivaksi",
+        "Kun toinen kulkutie reititet\u00c3\u00a4\u00c3\u00a4n sen kautta",
+        "60 sekunnin kuluttua kun kulkutielle annetaan h\u00c3\u00a4t\u00c3\u00a4varainen purkukomento"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "hmm"
+      },
+      "number": 36,
+      "prompt": "Milloin junakulkutie purkautuu kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ss\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "50 km/h",
+        "35 km/h",
+        "30 km/h",
+        "20 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 37,
+      "prompt": "Kuinka suuri saa olla junan nopeus ohitettaessa tasoristeyst\u00c3\u00a4, jonka varoituslaitos on viallinen?"
+    },
+    {
+      "answers": [
+        "100 km/h",
+        "80 km/h",
+        "50 km/h",
+        "35 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 38,
+      "prompt": "Junalle on annettu lupa ohittaa seis- opaste. Kuinka suuri saa junan nopeus olla opastimen j\u00c3\u00a4lkeen?"
+    },
+    {
+      "answers": [
+        "35 km/h",
+        "30 km/h",
+        "20 km/h",
+        "Vaihteessa ei saa liikenn\u00c3\u00b6id\u00c3\u00a4 ennen kunnossapidon tarkastusta"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 39,
+      "prompt": "Vaihteessa on aukiajoilmaisu, mutta vaihteen l\u00c3\u00a4hell\u00c3\u00a4 ei ole kalustoa, ja se saadaan k\u00c3\u00a4\u00c3\u00a4nnetty\u00c3\u00a4 kauko- ohjausj\u00c3\u00a4rjestelm\u00c3\u00a4ll\u00c3\u00a4 takaisin valvottuun asentoon. Mik\u00c3\u00a4 nopeusrajoitus tulee liikenn\u00c3\u00b6iville junille ilmoittaa vaihteeseen ennen kunnossapidon tarkastusta?"
+    },
+    {
+      "answers": [
+        "80 km/h",
+        "60 km/h",
+        "50 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 40,
+      "prompt": "Liikenteenohjaukseen tulee puhelu veturinkuljettajalta routavauriosta rataosuudella. Mik\u00c3\u00a4 nopeusrajoitus tulee osuudella liikenn\u00c3\u00b6iville junille ilmoittaa?"
+    },
+    {
+      "answers": [
+        "35 km/h",
+        "20 km/h",
+        "10 km/h",
+        "5 km/h"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 41,
+      "prompt": "Raakapuujuna on j\u00c3\u00a4\u00c3\u00a4nyt \u00c3\u201eets\u00c3\u00a4ss\u00c3\u00a4 m\u00c3\u00a4keen, ja joutuu per\u00c3\u00a4ytt\u00c3\u00a4m\u00c3\u00a4\u00c3\u00a4n varmistettuaan, ett\u00c3\u00a4 osuudella ei ole tasoristeyksi\u00c3\u00a4. Mit\u00c3\u00a4 nopeutta junan on per\u00c3\u00a4ytyksess\u00c3\u00a4 noudatettava?"
+    },
+    {
+      "answers": [
+        "10 km/h",
+        "5 km/h",
+        "3 km/h"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 42,
+      "prompt": "Sama raakapuujuna katkesi kesken per\u00c3\u00a4ytyksen. Mit\u00c3\u00a4 nopeutta junan on yhdist\u00c3\u00a4misess\u00c3\u00a4 noudatettava?"
+    },
+    {
+      "answers": [
+        "50 km/h",
+        "35 km/h",
+        "30 km/h",
+        "20 km/h"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 43,
+      "prompt": "Kovan onnen junan touhuista ei nyt meinaa tulla mit\u00c3\u00a4\u00c3\u00a4n. Tampereen tavararatapihalta l\u00c3\u00a4htee avustava veturi matkaan. Mit\u00c3\u00a4 nopeutta avustamisessa on noudatettava?"
+    },
+    {
+      "answers": [
+        "80 km/h",
+        "60 km/h",
+        "50 km/h",
+        "35 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 44,
+      "prompt": "Avustettava juna saapuu kohti Tamperetta, mutta raportoi Nokialta asiattomia liikkujia radalla. Mink\u00c3\u00a4 nopeusrajoituksen liikenteenohjaus kyseiselle paikalle m\u00c3\u00a4\u00c3\u00a4r\u00c3\u00a4\u00c3\u00a4?"
+    },
+    {
+      "answers": [
+        "Pit\u00c3\u00a4\u00c3\u00a4 osata kyrillisi\u00c3\u00a4 aakkosia",
+        "Kaluston py\u00c3\u00b6r\u00c3\u00a4kertojen kunnossa on suuremmat toleranssit kuin kotimaisessa, enemm\u00c3\u00a4n lovipy\u00c3\u00b6r\u00c3\u00a4h\u00c3\u00a4lytyksi\u00c3\u00a4",
+        "Poikkeavissa vaihteissa suurin nopeus on pienempi kuin kotimaisilla vaunuilla"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 45,
+      "prompt": "Miten raiteilla liikkuva id\u00c3\u00a4n yhdysliikenteen kalusto vaikuttaa liikenteenohjaukseen?"
+    },
+    {
+      "answers": [
+        "Routavaurio radassa",
+        "Tilap\u00c3\u00a4inen nopeusrajoitus",
+        "Lupa opastimen ohitukseen",
+        "Juna pys\u00c3\u00a4ytett\u00c3\u00a4v\u00c3\u00a4 ennen junakulkutien p\u00c3\u00a4\u00c3\u00a4tekohtaa",
+        "Rullattava virroitin alas laskettuna",
+        "Matkustajajunan varatulle raiteelle tuleminen"
+      ],
+      "correct": {
+        "index": 4,
+        "text": "hmm"
+      },
+      "number": 46,
+      "prompt": "Mitk\u00c3\u00a4 seuraavista luvista/ilmoituksista liikenteenohjauksen on varmistettava yksik\u00c3\u00b6lle suullisesti?"
+    }
+  ],
+  "title": "Komennot",
+  "url": "https://makethemaker.github.io/komennot/"
+}
