@@ -20,6 +20,7 @@ $.fn.quiz = function(filename) {
   }
 };
 
+ //randomizer
 function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
 
@@ -46,6 +47,7 @@ function render(quiz_opts) {
 
   // list of questions to insert into quiz
   var questions = quiz_opts.questions;
+  //randomizes questions
   shuffle(questions);
   // keep track of the state of correct
   // answers to the quiz so far
