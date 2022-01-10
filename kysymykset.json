@@ -1,0 +1,631 @@
+{
+  "questions": [
+    {
+      "answers": [
+        "JU",
+        "JK",
+        "JN",
+        "KT"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "1."
+      },
+      "number": 1,
+      "prompt": "Millä komennolla voit tehdä junakulkutien kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "JN,VT",
+        "JK,E",
+        "UK,VT",
+        "UK,E"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "2."
+      },
+      "number": 2,
+      "prompt": "Puutavaravaunuja kuljettava dieselvetoinen juna on saapunut Ylöjärven puunlastauspaikalle, ja pitää reitittää pääraiteen tulo- opastimelta sähköttömälle sivuraiteelle. Millä komennoilla voit tehdä yksikölle tilanteessa vaihtokulkutien?"
+    },
+    {
+      "answers": [
+        "Junakulkutien varmistaminen sähköistämättömälle raiteelle",
+        "Kulkutien peruuttaminen",
+        "Opastimen asettaminen näyttämään SEIS- opastetta",
+        "Yksittäisen vaihteen lukituksen vapauttaminen",
+        "Vaihteen ajoneston poistaminen"
+      ],
+      "correct": {
+        "index": 4,
+        "text": "3."
+      },
+      "number": 3,
+      "prompt": "Mitkä seuraavista ovat kriittisiä komentoja?"
+    },
+    {
+      "answers": [
+        "JK,L",
+        "JK,S",
+        "JK,E"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "4."
+      },
+      "number": 4,
+      "prompt": "Liikennepaikan pääraiteella on käynnissä ratatyö. Millä kauko- ohjausjärjestelmän komennolla voit reitittää junakulkutien liikennepaikan sivuraiteen kautta ohi (oletetaan, että ratatyö on riittävästi suojattu)?"
+    },
+    {
+      "answers": [
+        "Junakulkutie kauko- ohjausjärjestelmän komennolla JK,E -  kuljettajalle ilmoitus varatusta raiteesta",
+        "Junakulkutie kauko- ohjausjärjestelmän komennolla VT -  kuljettajaa ei tarvitse infota varatusta raiteesta",
+        "Asetinlaite ei tue varatulle raiteelle kulkutien tekemistä, yksikkö muutetaan vaihtotyöksi -  kuljettajaa infotaan junana kulun loppumisesta"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "5."
+      },
+      "number": 5,
+      "prompt": "Matkustajajuna on saapumassa Tampereen aseman raiteelle 003, jossa on jo toinen juna. Mitkä väittämät ovat oikein?"
+    },
+    {
+      "answers": [
+        "Voin tehdä, komento UKVR -  kriittinen komento",
+        "En voi tehdä",
+        "Voin tehdä, komento UKLU -  kriittinen komento"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "6."
+      },
+      "number": 6,
+      "prompt": "Voinko tehdä vaihtokulkutien, jos kulkutiereitille on asetettu ajonesto?"
+    },
+    {
+      "answers": [
+        "Komento KPER peruuttaa aina kulkutien, kunhan sitä ei ole käytetty",
+        "Komento KPER peruuttaa kulkutien, kunhan sen aloittava opastin ei ole ehtinyt muuttua ajon sallivaksi",
+        "Komento HPM purkaa kulkutien kaikissa tilanteissa välittömästi",
+        "Junakulkutien hätävarainen purkaminen on kriittinen komento ja aloittaa purun vasta 60 sekunnin viiveen jälkeen"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "7."
+      },
+      "number": 7,
+      "prompt": "Käyttämätön junakulkutie pitää purkaa. Mitkä väittämät ovat oikein?"
+    },
+    {
+      "answers": [
+        "AJA",
+        "AJA35",
+        "SEIS"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 8,
+      "prompt": "Mitkä seuraavista opastinkomennoista on mahdollista toteuttaa kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "SUK",
+        "SSK",
+        "SKK"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 9,
+      "prompt": "Millä komennolla voit kääntää suojastuksen liikennesuunnan kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "VK\u00c3\u201e",
+        "V",
+        "AK\u00c3\u201e"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 10,
+      "prompt": "Millä komennolla voit kääntää vaihteen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "VLUK",
+        "VALK",
+        "VAIL"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 11,
+      "prompt": "Millä komennolla voit lukita vaihteen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "VAES",
+        "VEST",
+        "VAIE"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 12,
+      "prompt": "Millä komennolla voit asettaa vaihteelle ajoneston kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "VLKV",
+        "VLEI",
+        "VVAP"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 13,
+      "prompt": "Millä komennolla voit vapauttaa vaihteen lukituksen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "ROE",
+        "RAEST",
+        "REST"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 14,
+      "prompt": "Millä komennolla voit asettaa raideosuudelle ajoneston kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "RAPO",
+        "REPO",
+        "ROAEP"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 15,
+      "prompt": "Millä komennolla voit poistaa raideosuudelle asetetun ajoneston kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "PL",
+        "PAIKL",
+        "PALU"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 16,
+      "prompt": "Millä komennolla voit antaa paikallisluvan kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "PALP",
+        "PLP",
+        "PAIKP"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 17,
+      "prompt": "Millä komennolla voit peruuttaa myönnetyn paikallisluvan kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "ASVAP",
+        "ASV",
+        "ASAV"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 18,
+      "prompt": "Millä komennolla voit vapauttaa avainsalpalaitteen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "ASLUK",
+        "ASAL",
+        "ASL"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 19,
+      "prompt": "Millä komennolla voit lukita avainsalpalaitteen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "TRVAR",
+        "TSRH\u00c3\u201eL",
+        "KVAR",
+        "KH\u00c3\u201eL"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 20,
+      "prompt": "Millä komennolla voit asettaa tasoristeyksen varoituslaitoksen aloittamaan varoituksen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "KEI",
+        "TRP",
+        "KPOI",
+        "TSREI"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 21,
+      "prompt": "Millä komennolla voit lopettaa tasoristeyksen varoituslaitoksen laitoskohtaisen varoituksen kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "RTXT",
+        "RTE",
+        "RLVTX",
+        "TXT"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 22,
+      "prompt": "Millä komennolla voit kirjoittaa tekstiä raiteelle tai linjaraiteelle kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "RPV",
+        "VALON",
+        "VAON",
+        "RPVAL"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 23,
+      "prompt": "Millä komennolla voit asettaa liikennepaikan ratapihavalot päälle kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "RPVOFF",
+        "VALOFF",
+        "VAEI",
+        "RPVEI"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 24,
+      "prompt": "Millä komennolla voit asettaa liikennepaikan ratapihavalot pois päältä kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "Ei estä",
+        "Kyllä estää"
+      ],
+      "correct": {
+        "index": 0,
+        "text": "hmm"
+      },
+      "number": 25,
+      "prompt": "Olet asettanut kauko- ohjausjärjestelmän raiteelle huomautustekstin. Estääkö se kulkutien tekemistä kyseiselle raiteelle?"
+    },
+    {
+      "answers": [
+        "Liikenneohjaaja ei voi kääntää vaihdetta",
+        "Kulkutien voi tehdä kyseisen vaihteen kautta, jos se on kulkutien kannalta oikeaan asentoon lukittuneena",
+        "Automatiikka voi kääntää vaihteen tarvittaessa"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 26,
+      "prompt": "Olet lukinnut kauko- ohjausjärjestelmässä yksittäisen vaihteen. Mitkä väittämät ovat oikein?"
+    },
+    {
+      "answers": [
+        "Liikenneohjaaja ei voi kääntää vaihdetta",
+        "Automatiikka voi kääntää vaihteen tarvittaessa",
+        "Vaihde voi kääntyä mihin asentoon vaan liikenteenohjauksen tietämättä maastosta ohjattuna",
+        "Kulkuteitä ei voi muodostaa vaihteen kautta ennen kuin paikallisluvat on palautettu"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "hmm"
+      },
+      "number": 27,
+      "prompt": "Yksittäinen vaihde on kauko- ohjausjärjestelmässä paikallisluvan piirissä. Mitkä väittämät ovat oikein?"
+    },
+    {
+      "answers": [
+        "Liikenneohjaaja ei voi kääntää vaihdetta",
+        "Kulkuteitä ei voi muodostaa vaihteen kautta"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 28,
+      "prompt": "Yksittäiselle vaihteelle on kauko- ohjausjärjestelmässä asetettu ajonesto. Mitkä väittämät ovat oikein?"
+    },
+    {
+      "answers": [
+        "Keltainen",
+        "Vihreä",
+        "Punainen",
+        "Sininen",
+        "Valkoinen"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 29,
+      "prompt": "Minkä värinen on kauko- ohjausjärjestelmässä varautunut raideosuus?"
+    },
+    {
+      "answers": [
+        "Sininen",
+        "Keltainen",
+        "Valkoinen",
+        "Vihreä",
+        "Punainen"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 30,
+      "prompt": "Minkä värinen on kauko- ohjausjärjestelmässä sähköistetty raideosuus, jolle ei ole annettu komentoja ja joka ei ole varautunut?"
+    },
+    {
+      "answers": [
+        "Vihreä",
+        "Valkoinen",
+        "Punainen",
+        "Sininen",
+        "Keltainen"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "hmm"
+      },
+      "number": 31,
+      "prompt": "Minkä värinen on kauko- ohjausjärjestelmässä sähköistämätön raideosuus, jolle ei ole annettu komentoja ja joka ei ole varautunut?"
+    },
+    {
+      "answers": [
+        "Valkoinen",
+        "Vihreä",
+        "Keltainen",
+        "Sininen",
+        "Punainen"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 32,
+      "prompt": "Minkä värinen on kauko- ohjausjärjestelmässä varmistettu vaihtokulkutie, joka ei ole varautunut?"
+    },
+    {
+      "answers": [
+        "Sivuraidetta",
+        "Toisen luokan liikenteenohjausaluetta",
+        "Laitevikaa tai yhteyskatkoa"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 33,
+      "prompt": "Mitä kuvaa harmaan värinen raideosuus kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "Vaihtuvaa opastetta",
+        "Lukittuvaa opastetta",
+        "Lamppuvikaa tai yhteyskatkoa"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 34,
+      "prompt": "Mitä tarkoittaa vilkkuva punainen opastinsymboli kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "Kulkutien suojastusta",
+        "Kulkutien lukitusta",
+        "Kulkutien varmistusta"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 35,
+      "prompt": "Mitä tarkoittavat pienet neliöt varmistetun kulkutien vieressä kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "Kun yksikkö on käyttänyt sen, raideosuus kerrallaan",
+        "Kun kulkutie peruutetaan siten, että sen aloittava opastin ei ole ehtinyt muuttua ajon sallivaksi",
+        "Kun toinen kulkutie reititetään sen kautta",
+        "60 sekunnin kuluttua kun kulkutielle annetaan hätävarainen purkukomento"
+      ],
+      "correct": {
+        "index": 3,
+        "text": "hmm"
+      },
+      "number": 36,
+      "prompt": "Milloin junakulkutie purkautuu kauko- ohjausjärjestelmässä?"
+    },
+    {
+      "answers": [
+        "50 km/h",
+        "35 km/h",
+        "30 km/h",
+        "20 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 37,
+      "prompt": "Kuinka suuri saa olla junan nopeus ohitettaessa tasoristeystä, jonka varoituslaitos on viallinen?"
+    },
+    {
+      "answers": [
+        "100 km/h",
+        "80 km/h",
+        "50 km/h",
+        "35 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 38,
+      "prompt": "Junalle on annettu lupa ohittaa seis- opaste. Kuinka suuri saa junan nopeus olla opastimen jälkeen?"
+    },
+    {
+      "answers": [
+        "35 km/h",
+        "30 km/h",
+        "20 km/h",
+        "Vaihteessa ei saa liikennöidä ennen kunnossapidon tarkastusta"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 39,
+      "prompt": "Vaihteessa on aukiajoilmaisu, mutta vaihteen lähellä ei ole kalustoa, ja se saadaan käännettyä kauko- ohjausjärjestelmällä takaisin valvottuun asentoon. Mikä nopeusrajoitus tulee liikennöiville junille ilmoittaa vaihteeseen ennen kunnossapidon tarkastusta?"
+    },
+    {
+      "answers": [
+        "80 km/h",
+        "60 km/h",
+        "50 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 40,
+      "prompt": "Liikenteenohjaukseen tulee puhelu veturinkuljettajalta routavauriosta rataosuudella. Mikä nopeusrajoitus tulee osuudella liikennöiville junille ilmoittaa?"
+    },
+    {
+      "answers": [
+        "35 km/h",
+        "20 km/h",
+        "10 km/h",
+        "5 km/h"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 41,
+      "prompt": "Raakapuujuna on jäänyt \u00c3\u201eetsässä mäkeen, ja joutuu peräyttämään varmistettuaan, että osuudella ei ole tasoristeyksiä. Mitä nopeutta junan on peräytyksessä noudatettava?"
+    },
+    {
+      "answers": [
+        "10 km/h",
+        "5 km/h",
+        "3 km/h"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 42,
+      "prompt": "Sama raakapuujuna katkesi kesken peräytyksen. Mitä nopeutta junan on yhdistämisessä noudatettava?"
+    },
+    {
+      "answers": [
+        "50 km/h",
+        "35 km/h",
+        "30 km/h",
+        "20 km/h"
+      ],
+      "correct": {
+        "index": 1,
+        "text": "hmm"
+      },
+      "number": 43,
+      "prompt": "Kovan onnen junan touhuista ei nyt meinaa tulla mitään. Tampereen tavararatapihalta lähtee avustava veturi matkaan. Mitä nopeutta avustamisessa on noudatettava?"
+    },
+    {
+      "answers": [
+        "80 km/h",
+        "60 km/h",
+        "50 km/h",
+        "35 km/h"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 44,
+      "prompt": "Avustettava juna saapuu kohti Tamperetta, mutta raportoi Nokialta asiattomia liikkujia radalla. Minkä nopeusrajoituksen liikenteenohjaus kyseiselle paikalle määrää?"
+    },
+    {
+      "answers": [
+        "Pitää osata kyrillisiä aakkosia",
+        "Kaluston pyöräkertojen kunnossa on suuremmat toleranssit kuin kotimaisessa, enemmän lovipyörähälytyksiä",
+        "Poikkeavissa vaihteissa suurin nopeus on pienempi kuin kotimaisilla vaunuilla"
+      ],
+      "correct": {
+        "index": 2,
+        "text": "hmm"
+      },
+      "number": 45,
+      "prompt": "Miten raiteilla liikkuva idän yhdysliikenteen kalusto vaikuttaa liikenteenohjaukseen?"
+    },
+    {
+      "answers": [
+        "Routavaurio radassa",
+        "Tilapäinen nopeusrajoitus",
+        "Lupa opastimen ohitukseen",
+        "Juna pysäytettävä ennen junakulkutien päätekohtaa",
+        "Rullattava virroitin alas laskettuna",
+        "Matkustajajunan varatulle raiteelle tuleminen"
+      ],
+      "correct": {
+        "index": 4,
+        "text": "hmm"
+      },
+      "number": 46,
+      "prompt": "Mitkä seuraavista luvista/ilmoituksista liikenteenohjauksen on varmistettava yksikölle suullisesti?"
+    }
+  ],
+  "title": "Komennot",
+  "url": "https://makethemaker.github.io/komennot/"
+}
