@@ -120,9 +120,9 @@
     },
     {
       "answers": [
-        "VK\u00c3\u201e",
+        "VKÄ",
         "V",
-        "AK\u00c3\u201e"
+        "AKÄ"
       ],
       "correct": {
         "index": 1,
@@ -251,9 +251,9 @@
     {
       "answers": [
         "TRVAR",
-        "TSRH\u00c3\u201eL",
+        "TSRHÄL",
         "KVAR",
-        "KH\u00c3\u201eL"
+        "KHÄL"
       ],
       "correct": {
         "index": 2,
@@ -544,7 +544,7 @@
         "text": "hmm"
       },
       "number": 41,
-      "prompt": "Raakapuujuna on jäänyt \u00c3\u201eetsässä mäkeen, ja joutuu peräyttämään varmistettuaan, että osuudella ei ole tasoristeyksiä. Mitä nopeutta junan on peräytyksessä noudatettava?"
+      "prompt": "Raakapuujuna on jäänyt Äetsässä mäkeen, ja joutuu peräyttämään varmistettuaan, että osuudella ei ole tasoristeyksiä. Mitä nopeutta junan on peräytyksessä noudatettava?"
     },
     {
       "answers": [
